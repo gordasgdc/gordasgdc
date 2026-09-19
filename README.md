@@ -1,6 +1,7 @@
 <div align="center">
 
 # Cristi Gordas
+![](https://komarev.com/ghpvc/?username=gordasgdc)
 
 ### Colorist · Filmmaker · Tool Builder
 
