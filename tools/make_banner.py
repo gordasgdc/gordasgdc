@@ -18,11 +18,11 @@ def make(name, c):
     for x in (m, W-m):
         for y in (56, H-56): d.ellipse([(x-4)*S, (y-4)*S, (x+4)*S, (y+4)*S], fill=c["acc"])
     # titlu
-    d.text((m*S, 118*S), "Cristi Gordas", font=font("Inter-Bold.otf", 92), fill=c["fg"])
-    d.text((m*S+4, 232*S), "Colorist  ·  Filmmaker  ·  Tool builder", font=font("Inter-ExtraLight.otf", 34), fill=c["sub"])
-    d.text((m*S+4, 292*S), "GDC  ·  gordas.dev", font=font("Inter-Bold.otf", 22), fill=c["acc"])
+    d.text((m*S, 74*S), "Cristi Gordas", font=font("Inter-Bold.otf", 124), fill=c["fg"])
+    d.text((m*S+4, 214*S), "Colorist  ·  Filmmaker  ·  Tool builder", font=font("Inter-Light.otf", 46), fill=c["sub"])
+    d.text((m*S+4, 284*S), "GDC  ·  gordas.dev", font=font("Inter-Bold.otf", 30), fill=c["acc"])
     # rampă de gri (9 trepte, ca o scară de expunere) în dreapta
-    x0, y0, w, h = 1130, 118, 40, 160
+    x0, y0, w, h = 1190, 100, 32, 150
     for i in range(9):
         t = i/8
         g = int(255*(t**(1/1.0))) if name == "dark" else int(255*t)
